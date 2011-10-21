@@ -8,3 +8,7 @@ Put it in .reprap/reprap.properties on your machine. It contains
 the settings for temperatures, dump point, and any other tweaks
 we make as time goes on. If you make a satisfactory tweak to
 calibration, please commit it!
+
+**Skeinforge folder** this is a copy of my ~/.skeinforge folder.
+It has all the settings I'm currently using (which should be 
+'best settings')
