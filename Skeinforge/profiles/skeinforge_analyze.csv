@@ -1,7 +1,7 @@
 Format is tab separated skeinforge analyze settings.
 Name                          	Value
 WindowPosition	0+0
-Open File for Analyze	/home/jalada/Downloads/20mm-box-fixed.stl
+Open File for Analyze	/home/jalada/Documents/Models/1up-scale.stl
 comment	False
 interpret	False
 skeiniso	True

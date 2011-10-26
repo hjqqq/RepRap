@@ -2,5 +2,5 @@ Format is tab separated home settings.
 Name                          	Value
 WindowPosition	0+0
 Open File for Home	
-Activate Home	False
+Activate Home	True
 Name of Homing File:	homing.gcode

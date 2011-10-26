@@ -1,7 +1,7 @@
 Format is tab separated skeinforge craft settings.
 Name                          	Value
 WindowPosition	0+0
-Open File for Craft	/home/jalada/Downloads/Stand_Side_1.2.stl
+Open File for Craft	/home/jalada/Documents/Models/5cm 1up-meshlab.stl
 bottom	False
 carve	False
 chamber	False
@@ -26,8 +26,8 @@ lash	False
 lift	False
 limit	False
 mill	False
-multiply	False
-oozebane	True
+multiply	True
+oozebane	False
 outset	False
 preface	False
 raft	False
