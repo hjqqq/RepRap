@@ -5,10 +5,10 @@ Open File for Dimension
 Activate Dimension	True
 Absolute Extrusion Distance	True
 Relative Extrusion Distance	False
-Extruder Retraction Speed (mm/s):	10.0
+Extruder Retraction Speed (mm/s):	60.0
 Filament Diameter (mm):	1.75
 Filament Packing Density (ratio):	0.97
 Minimum Travel for Retraction (millimeters):	1.0
 Retract Within Island	False
-Retraction Distance (millimeters):	8.0
+Retraction Distance (millimeters):	20.0
 Restart Extra Distance (millimeters):	6.0

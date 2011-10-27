@@ -8,7 +8,7 @@ G28 X0			; home X
 G92 X0      		; adjust X absolute zero
 
 G1 F2300
-G1 X188 Y0 F2300	; Move to dump location
+G1 X241 Y0 F2300	; Move to dump location
 
 G1 F50
 G28 Z0 			; home Z
@@ -26,9 +26,8 @@ G1 F2500.0		; Poop (taken from Host Software)
 G1 E625.0 F2500.0
 G1 F1500.0
 G1 F5000.0
-G1 E585.0
+G1 E555.0
 G1 F1500.0
 G92 E0			; Reset to 0 for print
-
 
 M92 E180		; Set extruder steps/mm for print

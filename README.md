@@ -19,3 +19,5 @@ calibration, please commit it!
 **Skeinforge folder** this is a copy of my ~/.skeinforge folder.
 It has all the settings I'm currently using (which should be 
 'best settings')
+
+**pronsolerc** Config + buttons for Pronterface. Copy to ~/.pronsolerc
