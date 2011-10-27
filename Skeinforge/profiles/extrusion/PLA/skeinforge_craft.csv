@@ -3,7 +3,7 @@ _Name                          	Value
 WindowPosition	600+0
 Open File for Craft	/home/jalada/Downloads/0.5mm-thin-wall.stl
 bookend	False
-bottom	True
+bottom	False
 carve	False
 chamber	False
 chop	False
@@ -35,7 +35,7 @@ raft	False
 scale	False
 skin	False
 skirt	False
-speed	False
+speed	True
 splodge	False
 stretch	False
 temperature	False
