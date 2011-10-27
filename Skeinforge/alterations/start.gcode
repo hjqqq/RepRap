@@ -16,17 +16,19 @@ G92 Z0 			; adjust Z height for optimum 1st layer adhesion
 
 G1 F50
 G1 Z1 F50		; Move Z up a little bit (unnecessary?)
-M109 S205		; Extruder MUST be warm now, wait for it.
-
-G1 F2500.0		; Poop (taken from Host Software)
-G1 E1250.0 F2500.0
-G1 F1500.0
-G1 F18000.0
-G1 E1190.0
-G1 F1500.0
-G92 E0
 
 M140 S70    		; Set heated bed temperature (and return)
 M116        		; Wait
+
+M109 S205		; Extruder MUST be warm now, wait for it.
+
+G1 F2500.0		; Poop (taken from Host Software)
+G1 E625.0 F2500.0
+G1 F1500.0
+G1 F5000.0
+G1 E585.0
+G1 F1500.0
+G92 E0			; Reset to 0 for print
+
 
 M92 E180		; Set extruder steps/mm for print
