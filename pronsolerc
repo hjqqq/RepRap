@@ -9,5 +9,5 @@ set temperature_pla 205
 set port /dev/ttyUSB0
 set last_bed_temperature 70.0
 set last_temperature 0.0
-button 0 "Move to dump point" /c "#C86464" G1 X188 Y0 F2300
+button 0 "Move to dump point" /c "#C86464" G1 X241 Y0 F2300
 button 1 "Get position" /c "#CCFF00" M114
