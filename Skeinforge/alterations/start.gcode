@@ -25,8 +25,8 @@ M109 S205		; Extruder MUST be warm now, wait for it.
 G1 F2500.0		; Poop (taken from Host Software)
 G1 E625.0 F2500.0
 G1 F1500.0
-G1 F5000.0
-G1 E555.0
+G1 F18000.0
+G1 E535.0
 G1 F1500.0
 G92 E0			; Reset to 0 for print
 

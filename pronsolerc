@@ -4,7 +4,7 @@ set z_feedrate 50
 set e_feedrate 300
 set bed_size_x 188
 set bed_size_y 170
-set bedtemp_pla 70
+set bedtemp_pla 75
 set temperature_pla 205
 set port /dev/ttyUSB0
 set last_bed_temperature 70.0
