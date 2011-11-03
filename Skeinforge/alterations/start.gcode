@@ -8,7 +8,7 @@ G28 X0			; home X
 G92 X0      		; adjust X absolute zero
 
 G1 F2300
-G1 X241 Y0 F2300	; Move to dump location
+G1 X241 Y205 F2300	; Move to dump location
 
 G1 F50
 G28 Z0 			; home Z
