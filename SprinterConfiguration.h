@@ -32,7 +32,7 @@
 //Metric Prusa Mendel with T2.5 belts, 14-tooth pulleys, and Universal Mini extruder:
 //float axis_steps_per_unit[] = {91.4286, 91.4286, 2560, 28};
 // Our Prusa Mendel
-float axis_steps_per_unit[] = {71, 72, 2650, 28};
+float axis_steps_per_unit[] = {76.91, 77.25, 2650, 28};
 // Metric Prusa Mendel with Wade extruder
 //float axis_steps_per_unit[] = {80, 80, 3200/1.25,700}; 
 // Metric Prusa Mendel with Makergear geared stepper extruder:
@@ -89,8 +89,8 @@ const bool INVERT_E_DIR = true;
 
 const bool min_software_endstops = false; //If true, axis won't move to coordinates less than zero.
 const bool max_software_endstops = true;  //If true, axis won't move to coordinates greater than the defined lengths below.
-const int X_MAX_LENGTH = 241;
-const int Y_MAX_LENGTH = 205;
+const int X_MAX_LENGTH = 220;
+const int Y_MAX_LENGTH = 190;
 const int Z_MAX_LENGTH = 80;
 
 // Sensible feedrates
@@ -102,7 +102,7 @@ const int Z_MAX_LENGTH = 80;
 
 //// MOVEMENT SETTINGS
 const int NUM_AXIS = 4; // The axis order in all axis related arrays is X, Y, Z, E
-float max_feedrate[] = {200000, 200000, 240, 500000};
+float max_feedrate[] = {200000, 200000, 200, 500000};
 float homing_feedrate[] = {1500,1500,120};
 bool axis_relative_modes[] = {false, false, false, false};
 

@@ -1,10 +1,10 @@
 Format is tab separated skeinforge craft settings.
 _Name                          	Value
 WindowPosition	600+0
-Open File for Craft	/home/jalada/Downloads/0.5mm-thin-wall.stl
+Open File for Craft	/home/jalada/Documents/Models/filament_guide.stl
 bookend	False
 bottom	False
-carve	True
+carve	False
 chamber	False
 chop	False
 cleave	False
@@ -31,7 +31,7 @@ multiply	False
 oozebane	False
 outset	False
 preface	False
-raft	False
+raft	True
 scale	False
 skin	False
 skirt	False

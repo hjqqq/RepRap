@@ -1,7 +1,7 @@
 Format is tab separated skeinforge analyze settings.
 _Name                          	Value
 WindowPosition	600+0
-Open File for Analyze	/home/jalada/Downloads/0.5mm-thin-wall_export.gcode
+Open File for Analyze	/home/jalada/Documents/Models/filament_guide_export.gcode
 clairvoyance	False
 comment	False
 interpret	False
