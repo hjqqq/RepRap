@@ -21,3 +21,5 @@ It has all the settings I'm currently using (which should be
 'best settings')
 
 **pronsolerc** Config + buttons for Pronterface. Copy to ~/.pronsolerc
+
+**Slic3r.ini** Slic3r configuration file. Untested as of b0fb525.
