@@ -14,7 +14,7 @@
 #define MOTHERBOARD 62
 
 // Comment out the next line to disable RepRap-style accelerations
-#define REPRAP_ACC
+//#define REPRAP_ACC
 
 //// Thermistor settings:
 // 1 is 100k thermistor
@@ -32,6 +32,9 @@
 //Metric Prusa Mendel with T2.5 belts, 14-tooth pulleys, and Universal Mini extruder:
 //float axis_steps_per_unit[] = {91.4286, 91.4286, 2560, 28};
 // Our Prusa Mendel
+// NOTE: The E steps of 28 are probably overriden by Skeinforge, Slic3r, whatever.
+// If you are using a volumetric slicer, make sure your start.gcode sets the 
+// E steps to a reasonable value! Otherwise it will extrude very slowly.
 float axis_steps_per_unit[] = {76.91, 77.25, 2650, 28};
 // Metric Prusa Mendel with Wade extruder
 //float axis_steps_per_unit[] = {80, 80, 3200/1.25,700}; 
@@ -89,8 +92,8 @@ const bool INVERT_E_DIR = true;
 
 const bool min_software_endstops = false; //If true, axis won't move to coordinates less than zero.
 const bool max_software_endstops = true;  //If true, axis won't move to coordinates greater than the defined lengths below.
-const int X_MAX_LENGTH = 220;
-const int Y_MAX_LENGTH = 190;
+const int X_MAX_LENGTH = 224;
+const int Y_MAX_LENGTH = 195;
 const int Z_MAX_LENGTH = 80;
 
 // Sensible feedrates
