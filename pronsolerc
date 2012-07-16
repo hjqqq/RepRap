@@ -1,13 +1,17 @@
-set last_file_path /home/jalada/Downloads
 set xy_feedrate 2500
 set z_feedrate 50
-set e_feedrate 300
-set bed_size_x 224
-set bed_size_y 195
+set e_feedrate 200
+set bed_size_x 188
+set bed_size_y 170
 set bedtemp_pla 75
 set temperature_pla 205
-set port /dev/ttyUSB0
-set last_bed_temperature 70.0
-set last_temperature 0.0
-button 0 "Move to dump point" /c "#C86464" G1 X224 Y195 F2300
+set port /dev/cu.usbserial-A6003Po7
+set last_bed_temperature 65.0
+set last_temperature 205.0
+button 0 "Move to dump point" /c "#C86464" G1 X241 Y205 F2300
 button 1 "Get position" /c "#CCFF00" M114
+set sliceoptscommand /Applications/Slic3r.app/Contents/MacOS/slic3r --load /Users/jalada/Code/RepRap/Slic3r.ini --ignore-nonexistent-config
+set slicecommand /Applications/Slic3r.app/Contents/MacOS/slic3r $s --load /Users/jalada/Code/RepRap/Slic3r.ini --output $o
+set last_file_path /Users/jalada/Downloads
+set baudrate 250000
+set build_dimensions 173x151x80+0+0+0
