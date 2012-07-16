@@ -10,6 +10,8 @@ our RepRap. It is to be used with [Adrian Bowyer's fork of the
 Sprinter firmware](https://github.com/AdrianBowyer/RepRapLtd-engineering/tree/master/Production-firmware). Replace his configuration.h
 with this one.
 
+**Marlin/** contains configuration for the Marlin firmware. This is the firmware we are currently using.
+
 **reprap.properties** is the settings for the RepRap Host Software.
 Put it in .reprap/reprap.properties on your machine. It contains
 the settings for temperatures, dump point, and any other tweaks
